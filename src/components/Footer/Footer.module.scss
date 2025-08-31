@@ -1,0 +1,38 @@
+// -------------------------------------------------------------------------------------------
+
+.container {
+	border-top: 1px solid var(--outline-variant);
+
+	.frame {
+		height: inherit;
+		max-width: var(--max-width);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: var(--space);
+		margin: auto;
+		gap: var(--space);
+
+		.joke {
+			color: var(--on-surface-variant);
+			text-align: center;
+		}
+
+		.developer {
+			color: var(--on-surface-variant);
+			text-align: center;
+		}
+	}
+}
+
+// -------------------------------------------------------------------------------------------
+
+@media only screen and (max-width: 840px) {
+	.container {
+		.frame {
+			flex-direction: column;
+		}
+	}
+}
+
+// -------------------------------------------------------------------------------------------
