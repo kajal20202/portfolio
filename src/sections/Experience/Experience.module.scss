@@ -3,8 +3,15 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    background-color: #ff2d5566;
     padding: 24px;
+    background-color: #ffeb3b66;
+
+    .headline {
+        color: var(--on-background);
+    }
+
+    .content {
+    }
 }
 
 // ------------------------------------------------------------------------------------------

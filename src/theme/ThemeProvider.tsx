@@ -1,20 +1,19 @@
 // ------------------------------------------------------------------------------------------
 
-import type { FC, JSX } from 'react';
-import styles from './Header.module.scss';
+import { ThemeContext } from './ThemeContext';
+import { useTheme } from './useTheme';
+
+import type { ThemeProviderProps } from './ThemeContext.types';
 
 // ------------------------------------------------------------------------------------------
 
-const Header: FC = (): JSX.Element => {
-    return (
-        <header className={styles.header}>
-            <div className={styles.container}>Header</div>
-        </header>
-    );
+const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
+    const theme = useTheme();
+    return <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>;
 };
 
 // ------------------------------------------------------------------------------------------
 
-export default Header;
+export default ThemeProvider;
 
 // ------------------------------------------------------------------------------------------

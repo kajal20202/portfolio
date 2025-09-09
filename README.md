@@ -1,12 +1,85 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website showcasing my skills, experience, and projects. Built with clean design, smooth interactions, and responsive layouts to highlight my journey as a developer.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Node.js](https://img.shields.io/badge/node-%3E%3D22.0.0-green?logo=node.js&logoColor=white)
+![npm](https://img.shields.io/badge/npm-%3E%3D10.0.0-red?logo=npm&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-enabled-orange?logo=prettier)
+![ESLint](https://img.shields.io/badge/ESLint-enabled-purple?logo=eslint)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **React 19** - Latest React APIs.
+- **Developer experience focused setup**:
+    - Hot reloading via **Turbopack**.
+    - Pre-configured **ESLint + Prettier**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech stack
+
+- **Framework**: [React](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Linting**: [ESLint](https://eslint.org/)
+- **Formatting**: [Prettier](https://prettier.io/)
+
+## Getting started
+
+### Prerequisites
+
+- **Node.js** ≥ 22.0.0
+- **npm** ≥ 10.0.0
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+```
+
+### Installation
+
+Clone and install dependencies:
+
+```bash
+git clone https://github.com/kajal20202/portfolio.git
+cd portfolio
+npm install
+```
+
+## Running the project
+
+### Development
+
+```bash
+npm run dev
+```
+
+Visit: **[http://localhost:5173](http://localhost:5173)**
+
+### Production
+
+```bash
+npm run build
+npm run start
+```
+
+## Scripts
+
+| Command          | Description                                  |
+| ---------------- | -------------------------------------------- |
+| `npm run dev`    | Start the development server with Turbopack. |
+| `npm run build`  | Create a production build.                   |
+| `npm run start`  | Start the Next.js production server.         |
+| `npm run lint`   | Run ESLint for code quality checks.          |
+| `npm run format` | Format code using Prettier.                  |
+
+## Author
+
+**Kajal Talwekar**
+🔗 [GitHub](https://github.com/kajal20202)
+
+## License
+
+This project is **UNLICENSED** - All rights reserved.
+Copying, modification, distribution or reuse of this code in any form is **strictly prohibited** without explicit permission.
