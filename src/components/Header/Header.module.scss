@@ -6,12 +6,33 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #00c7be;
+    background-color: #fff7fb;
 
     .container {
         max-width: 1200px;
         margin: auto;
-        padding: 0 24px;
+        padding: 24px 24px;
+    }
+
+    .heading {
+        font-size: 18px;
+        color: black;
+    }
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        
+
     }
 }
 

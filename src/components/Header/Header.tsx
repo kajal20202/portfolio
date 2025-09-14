@@ -8,7 +8,35 @@ import styles from './Header.module.scss';
 const Header: FC = (): JSX.Element => {
     return (
         <header className={styles.header}>
-            <div className={styles.container}>Header</div>
+            <div className={styles.container}>
+                <div className={styles.head}>
+                    <div>
+                        <p className={styles.heading}>Porfolio</p>
+                    </div>
+                    <div>
+                        <nav className={styles.nav}>
+                            <ul>
+                                <li>
+                                    <a href='#skills'>Skills</a>
+                                </li>
+                                <li>
+                                    <a href='#experiance'>Experiance</a>
+                                </li>
+                                <li>
+                                    <a href='#projects'>Projects </a>
+                                </li>
+                                     <li>
+                                    <a href='#about'>About </a>
+                                </li>
+                                     <li>
+                                    <a href='#contact'>Contact </a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </header>
     );
 };

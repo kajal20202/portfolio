@@ -3,14 +3,34 @@
 .container {
     max-width: 1200px;
     margin: auto;
+    background-color: #fff7fb;
     padding: 24px;
-    background-color: #007aff66;
+    margin-top: 64px;
 
     .headline {
         color: var(--on-background);
     }
 
     .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .abouttext{
+
+    }
+    .profile {
+        display: flex;
+        margin-right: 20px;
+        align-items: center;
+        
+    }
+    .profile img{
+        height: 100px;
+        width: 100px;   
+        
+      
     }
 }
 

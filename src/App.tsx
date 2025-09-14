@@ -20,11 +20,12 @@ const App: FC = (): JSX.Element => {
         <>
             <Header />
             <main>
-                <Landing />
-                <Skills />
+                <About />
                 <Experience />
                 <Projects />
-                <About />
+                <Landing />
+                <Projects />
+                <Skills />
                 <Contact />
             </main>
             <Footer />
