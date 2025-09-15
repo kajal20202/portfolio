@@ -3,34 +3,33 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    background-color: #fff7fb;
+    background-color: #ad2469;
     padding: 24px;
     margin-top: 64px;
-
-    .headline {
-        color: var(--on-background);
-    }
 
     .content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        
     }
-    .abouttext{
-
+    .about_text {
+        display: flex;
+        flex-direction: column;
+    }
+    .about_me {
+        font-size: 16px;
+    }
+    .about_name {
+        background-color: yellow;
+        font-size: 72px;
     }
     .profile {
         display: flex;
         margin-right: 20px;
         align-items: center;
-        
     }
-    .profile img{
+    .profile img {
         height: 100px;
-        width: 100px;   
-        
-      
+        width: 100px;
     }
 }
 

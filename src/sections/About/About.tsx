@@ -7,10 +7,11 @@ import styles from './About.module.scss';
 const About: FC = (): JSX.Element => {
     return (
         <div className={styles.container}>
-            <h2 className={styles.headline}>About</h2>
+          
             <div className={styles.content}>
-                <div className={styles.abouttext}>
-                    <p>Hello, i am kajal talwekar</p>
+                <div className={styles.about_text}>
+                    <p className={styles.about_me}>Hello, i am </p>
+                    <h4 className={styles.about_name}>Kajal Talwekar</h4>
                 </div>
                 <div className={styles.profile}>
                     <img
