@@ -3,12 +3,12 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    background-color: #ad2469;
     padding: 24px;
     margin-top: 64px;
 
     .content {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
     .about_text {
@@ -19,12 +19,23 @@
         font-size: 16px;
     }
     .about_name {
-        background-color: yellow;
         font-size: 72px;
+    }
+    .span_text{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .role{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .description{
+
+
     }
     .profile {
         display: flex;
-        margin-right: 20px;
+        // margin-right: 20px;
         align-items: center;
     }
     .profile img {
