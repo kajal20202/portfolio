@@ -3,50 +3,14 @@
 .container {
     max-width: 1200px;
     margin: auto;
+    background-color: #fff7fb;
     padding: 24px;
     margin-top: 64px;
 
+    .headline {
+        color: var(--on-background);
+    }
+
     .content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 24px;
-    }
-    .about_text {
-        display: flex;
-        flex-direction: column;
-    }
-    .about_me {
-        font-size: 16px;
-    }
-    .about_name {
-        font-size: 72px;
-    }
-    .span_text{
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .role{
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .description{
-
-
-    }
-    .profile {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-
-       
-    }
-    .profile img {
-        height: 80%;
-        width: 80%;
-        object-fit: cover;
-        border-radius: 25px; 
     }
 }
-
-// ------------------------------------------------------------------------------------------

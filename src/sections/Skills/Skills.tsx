@@ -10,16 +10,12 @@ const Skills: FC = (): JSX.Element => {
         <div className={styles.container}>
             <h2 className={styles.headline}>Skills</h2>
             <div className={styles.content}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quidem
-                provident corrupti necessitatibus ullam repellendus qui omnis, ducimus vero animi
-                eum debitis odit dolor dicta in molestiae sit autem? Similique at quaerat obcaecati
-                sequi. Quam molestias labore quisquam tempore, vero nostrum cupiditate dignissimos
-                quidem magni numquam, amet pariatur qui nihil, reiciendis aspernatur voluptatibus
-                perspiciatis non? Dolor quasi totam neque at veniam aliquam nostrum nulla.
-                Recusandae iste, voluptate atque deleniti error perspiciatis ipsum inventore vero
-                suscipit. Soluta ullam minima fuga sequi quasi atque, vero iusto dignissimos quod
-                quae molestias autem dolore explicabo aut dolores, totam beatae impedit debitis odio
-                ab perferendis!
+                <div className={styles.box}>Box 1</div>
+                <div className={styles.box}>Box 2</div>
+                <div className={styles.box}>Box 3</div>
+                <div className={styles.box}>Box 4</div>
+                <div className={styles.box}>Box 5</div>
+                <div className={styles.box}>Box 6</div>
             </div>
         </div>
     );

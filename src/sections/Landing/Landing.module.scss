@@ -1,18 +1,84 @@
-// ------------------------------------------------------------------------------------------
-
 .container {
     max-width: 1200px;
-    margin: auto;
-    background-color: #fff7fb;
+    margin: 64px auto 0;
     padding: 24px;
-    margin-top: 64px;
-
-    .headline {
-        color: var(--on-background);
-    }
 
     .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .about_text {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+    }
+
+    .about_me {
+        font-size: 16px;
+        color: var(--on-surface-variant);
+    }
+
+    .about_name {
+        font-size: 56px;
+        font-weight: bold;
+        line-height: 1.2;
+        color: var(--on-surface-variant);
+    }
+
+    .role {
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--on-surface-variant);
+        border: 2px solid var(--primary-container);
+        border-radius: 10px;
+        padding: 10px;
+        width: fit-content;
+        transition: all 0.3s ease;
+    }
+    .role:hover {
+        background-color: var(--primary-container);
+        color: var(--on-primary-container);
+    }
+    .description {
+        font-size: 16px;
+        line-height: 1.6;
+        color: var(--on-surface-variant);
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        img {
+            width: 320px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 25px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
     }
 }
 
-// ------------------------------------------------------------------------------------------
+@media (max-width: 1024px) {
+    .container {
+        .content {
+            gap: 16px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        .content {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 32px;
+        }
+    }
+}
