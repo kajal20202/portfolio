@@ -2,6 +2,8 @@
 
 import type { FC, JSX } from 'react';
 import styles from './About.module.scss';
+import Profile from '../../assets/profilepic.png';
+
 // ------------------------------------------------------------------------------------------
 
 const About: FC = (): JSX.Element => {
@@ -24,8 +26,8 @@ const About: FC = (): JSX.Element => {
                 </div>
                 <div className={styles.profile}>
                     <img
-                        src='./src/assets/profilepic.png'
-                        alt=''
+                        src={Profile}
+                        alt='Profile'
                     />
                 </div>
             </div>
