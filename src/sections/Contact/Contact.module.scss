@@ -4,13 +4,20 @@
     max-width: 1200px;
     margin: auto;
     padding: 24px;
-    background-color: #af52de66;
+    border-bottom: 1px solid var(--outline-variant);
 
     .headline {
-        color: var(--on-background);
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 24px;
+        color: var(--on-surface);
     }
-
     .content {
+    }
+    .description {
+        font-size: 16px;
+        line-height: 1.6;
+        color: var(--on-surface-variant);
     }
 }
 

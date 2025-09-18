@@ -15,12 +15,10 @@ const Landing: FC = (): JSX.Element => {
                     <h1 className={styles.about_name}>Kajal Talwekar</h1>
                     <h3 className={styles.role}>Junior Software Developer</h3>
                     <p className={styles.description}>
-                        Dedicated Junior Software Developer with experience at Synextic Global
-                        Business Solution Pvt Ltd.. LTD. Proficient in creating intuitive user
-                        interfaces and forms using React.js. Skilled in integrating APIs to enhance
-                        functionality and user experience. Seeking opportunities to leverage
-                        expertise in front-end development to contribute effectively to innovative
-                        projects.
+                        A learner with a strong academic background in Information Technology, I am
+                        seeking a challenging role that fosters professional growth, encourages
+                        creativity, and offers an opportunity to work for a dynamic organization
+                        with prospects for career advancement
                     </p>
                 </div>
                 <div className={styles.profile}>
