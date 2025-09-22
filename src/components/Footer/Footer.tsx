@@ -18,7 +18,7 @@ const Footer: FC = (): JSX.Element => {
                 className={styles.iconButton}
             >
                 mode
-                {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+                {/* {isDarkMode ? <Sun size={20} /> : <Moon size={20} />} */}
             </button>
         </footer>
     );
