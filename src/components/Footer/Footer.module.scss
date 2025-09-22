@@ -1,10 +1,41 @@
 // ------------------------------------------------------------------------------------------
 
+// .container {
+// max-width: 1200px;
+// margin: auto;
+// background-color: #ff2d5566;
+// padding: 24px;
+// }
+
+// ------------------------------------------------------------------------------------------
 .container {
     max-width: 1200px;
     margin: auto;
-    background-color: #ff2d5566;
     padding: 24px;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: var(--surface);
+    color: var(--on-surface);
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--on-surface-variant);
 }
 
-// ------------------------------------------------------------------------------------------
+.iconButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.iconButton:hover {
+    background: rgba(0, 0, 0, 0.1);
+}

@@ -15,10 +15,20 @@
     .content {
     }
     .description {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         font-size: 16px;
         line-height: 1.6;
         color: var(--on-surface-variant);
     }
-}
 
+    .description img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid var(--on-surface-variant);
+        object-fit: cover;
+    }
+}
 // ------------------------------------------------------------------------------------------

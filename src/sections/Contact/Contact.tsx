@@ -2,7 +2,9 @@
 
 import type { FC, JSX } from 'react';
 import styles from './Contact.module.scss';
-
+import email from '../../assets/logos/email.png';
+import phone from '../../assets/logos/phone.png';
+import linkdlin from '../../assets/logos/linkdlin.png';
 // ------------------------------------------------------------------------------------------
 
 const Contact: FC = (): JSX.Element => {
@@ -11,16 +13,28 @@ const Contact: FC = (): JSX.Element => {
             <h2 className={styles.headline}>Contact</h2>
             <div className={styles.content}>
                 <div className={styles.description}>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quidem
-                    provident corrupti necessitatibus ullam repellendus qui omnis, ducimus vero
-                    animi eum debitis odit dolor dicta in molestiae sit autem? Similique at quaerat
-                    obcaecati sequi. Quam molestias labore quisquam tempore, vero nostrum cupiditate
-                    dignissimos quidem magni numquam, amet pariatur qui nihil, reiciendis aspernatur
-                    voluptatibus perspiciatis non? Dolor quasi totam neque at veniam aliquam nostrum
-                    nulla. Recusandae iste, voluptate atque deleniti error perspiciatis ipsum
-                    inventore vero suscipit. Soluta ullam minima fuga sequi quasi atque, vero iusto
-                    dignissimos quod quae molestias autem dolore explicabo aut dolores, totam beatae
-                    impedit debitis odio ab perferendis!
+                    <a href='mailto:kajaltalwekar02@gmail.com'>
+                        <img
+                            src={email}
+                            alt='Email Icon'
+                        />
+                    </a>
+                    <a href='tel:+919359737094'>
+                        <img
+                            src={phone}
+                            alt='Phone Icon'
+                        />
+                    </a>
+                    <a
+                        href='https://www.linkedin.com/in/kajal-talwekar-39366b27a/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        <img
+                            src={linkdlin}
+                            alt='LinkedIn Icon'
+                        />
+                    </a>
                 </div>
             </div>
         </div>
