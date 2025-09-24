@@ -7,7 +7,10 @@ import styles from './Experience.module.scss';
 
 const Experience: FC = (): JSX.Element => {
     return (
-        <div className={styles.container}>
+        <div
+            className={styles.container}
+            id='experience'
+        >
             <h2 className={styles.headline}>Experience</h2>
             <div className={styles.content}>
                 <div className={styles.box}>

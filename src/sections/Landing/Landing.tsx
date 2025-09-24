@@ -8,7 +8,10 @@ import profilePic from '../../assets/profile_pic.jpg';
 
 const Landing: FC = (): JSX.Element => {
     return (
-        <div className={styles.container}>
+        <div
+            className={styles.container}
+            id='landing'
+        >
             <div className={styles.content}>
                 <div className={styles.about_text}>
                     <p className={styles.about_me}>Hello, I am</p>

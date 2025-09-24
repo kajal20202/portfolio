@@ -9,7 +9,10 @@ import linkdlin from '../../assets/logos/linkdlin.png';
 
 const Contact: FC = (): JSX.Element => {
     return (
-        <div className={styles.container}>
+        <div
+            className={styles.container}
+            id='contact'
+        >
             <h2 className={styles.headline}>Contact</h2>
             <div className={styles.content}>
                 <div className={styles.description}>

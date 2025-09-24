@@ -9,7 +9,7 @@ const Header: FC = (): JSX.Element => {
                     <div>
                         <p className={styles.heading}>Portfolio</p>
                     </div>
-                    <nav className={styles.nav}>
+                    {/* <nav className={styles.nav}>
                         <ul>
                             <li>
                                 <a href='#skills'>Skills</a>
@@ -25,6 +25,66 @@ const Header: FC = (): JSX.Element => {
                             </li>
                             <li>
                                 <a href='#contact'>Contact</a>
+                            </li>
+                        </ul>
+                    </nav> */}
+                    <nav className={styles.nav}>
+                        <ul>
+                            <li>
+                                <button
+                                    className={styles.button}
+                                    onClick={() =>
+                                        document
+                                            .getElementById('skills')
+                                            ?.scrollIntoView({ behavior: 'smooth' })
+                                    }
+                                >
+                                    Skills
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                    onClick={() =>
+                                        document
+                                            .getElementById('experience')
+                                            ?.scrollIntoView({ behavior: 'smooth' })
+                                    }
+                                >
+                                    Experience
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                    onClick={() =>
+                                        document
+                                            .getElementById('projects')
+                                            ?.scrollIntoView({ behavior: 'smooth' })
+                                    }
+                                >
+                                    Projects
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                    onClick={() =>
+                                        document
+                                            .getElementById('about')
+                                            ?.scrollIntoView({ behavior: 'smooth' })
+                                    }
+                                >
+                                    About
+                                </button>
+                            </li>
+                            <li>
+                                <button
+                                    onClick={() =>
+                                        document
+                                            .getElementById('contact')
+                                            ?.scrollIntoView({ behavior: 'smooth' })
+                                    }
+                                >
+                                    Contact
+                                </button>
                             </li>
                         </ul>
                     </nav>

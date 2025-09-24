@@ -37,7 +37,7 @@
                     list-style: none;
 
                     li {
-                        a {
+                        button {
                             text-decoration: none;
                             font-size: 16px;
                             font-weight: 500;
@@ -45,6 +45,8 @@
                             transition:
                                 color 0.3s ease,
                                 border-bottom 0.3s ease;
+                            border: none;
+                            background-color: var(--surface);
 
                             &:hover {
                                 color: var(--on-primary-container);

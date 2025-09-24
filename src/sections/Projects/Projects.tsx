@@ -7,7 +7,10 @@ import styles from './Projects.module.scss';
 
 const Projects: FC = (): JSX.Element => {
     return (
-        <div className={styles.container}>
+        <div
+            className={styles.container}
+            id='projects'
+        >
             <h2 className={styles.headline}>Projects</h2>
             <p className={styles.description_heading}>Company & Professional Projects</p>
             <div className={styles.content}>

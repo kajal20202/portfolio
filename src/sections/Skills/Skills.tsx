@@ -12,7 +12,10 @@ import scssLogo from '../../assets/logos/scss_logo.png';
 
 const Skills: FC = (): JSX.Element => {
     return (
-        <div className={styles.container}>
+        <div
+            className={styles.container}
+            id='skills'
+        >
             <h2 className={styles.headline}>Skills</h2>
             <div className={styles.content}>
                 <div className={styles.box}>
