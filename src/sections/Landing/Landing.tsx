@@ -2,7 +2,7 @@
 
 import type { FC, JSX } from 'react';
 import styles from './Landing.module.scss';
-import profilePic from '../../assets/profile_pic.png';
+import profilePic from '../../assets/profile_pic.jpg';
 
 // ------------------------------------------------------------------------------------------
 

@@ -34,8 +34,7 @@ const Experience: FC = (): JSX.Element => {
                     <div className={styles.box_content}>
                         <div className={styles.duration}>
                             <p className={styles.exp_text}>
-                                Front End Developer at Synextic Global Business Solution Pvt Ltd.,
-                                based in Pune
+                                Front End Developer at Metamind Systems Pvt Ltd., based in Pune
                             </p>
                             <p className={styles.role_date}>Sep 2023 - March 2025</p>
                         </div>
