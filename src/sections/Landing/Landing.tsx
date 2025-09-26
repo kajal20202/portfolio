@@ -16,7 +16,7 @@ const Landing: FC = (): JSX.Element => {
                 <div className={styles.about_text}>
                     <p className={styles.about_me}>Hello, I am</p>
                     <h1 className={styles.about_name}>Kajal Talwekar</h1>
-                    <h3 className={styles.role}>Junior Software Developer</h3>
+                    <h3 className={styles.role}>Software Developer</h3>
                     <p className={styles.description}>
                         A learner with a strong academic background in Information Technology, I am
                         seeking a challenging role that fosters professional growth, encourages

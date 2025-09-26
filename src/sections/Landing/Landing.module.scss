@@ -6,17 +6,16 @@
 
     .content {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         gap: 2px;
-        // align-items: center;
     }
 
     .about_text {
-        display: flex;
-        flex-direction: column;
+        // display: flex;
+        // flex-direction: column;
         max-width: 600px;
-        align-items: start;
+        // align-items: start;
     }
 
     .about_me {
@@ -27,24 +26,20 @@
     .about_name {
         font-size: 56px;
         font-weight: bold;
-        line-height: 1.2;
         color: var(--on-surface-variant);
     }
 
     .role {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
-        color: var(--on-surface-variant);
-        border: 2px solid var(--primary-container);
-        border-radius: 10px;
+        color: var (--primary-container);
+        border: 1px solid var(--primary-container);
+        border-radius: 20px;
         padding: 10px;
         width: fit-content;
         transition: all 0.3s ease;
     }
-    .role:hover {
-        background-color: var(--primary-container);
-        color: var(--on-primary-container);
-    }
+
     .description {
         font-size: 16px;
         line-height: 1.6;
@@ -56,20 +51,49 @@
         align-items: center;
         justify-content: flex-end;
 
+        width: full;
+        height: 300px;
+        border-radius: 25px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
         img {
-            width: 320px;
-            height: auto;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
-            border-radius: 25px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
     }
 }
-
 @media (max-width: 1024px) {
     .container {
         .content {
-            gap: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .about_text,
+        .profile {
+            flex: 1;
+            max-width: 50%;
+        }
+        .about_name {
+            font-size: 48px;
+        }
+
+        .profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 25px;
+        }
+
+        .profile img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
 }
@@ -77,10 +101,20 @@
 @media (max-width: 480px) {
     .container {
         .content {
-            flex-direction: column;
+            flex-direction: column-reverse;
             align-items: center;
             text-align: start;
-            gap: 32px;
+        }
+
+        .about_text,
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+        .about_name {
+            font-size: 48px;
         }
     }
 }

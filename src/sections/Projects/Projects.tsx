@@ -16,26 +16,13 @@ const Projects: FC = (): JSX.Element => {
             <div className={styles.content}>
                 <div className={styles.box}>
                     <div className={styles.box_content}>
-                        <p className={styles.exp_text}>
-                            Mega Project - Patient Health Monitoring System
-                        </p>
-
-                        <p className={styles.description}>
-                            Created design HTML, CSS, etc. This system is for multi-specialty
-                            hospital. In this project there are five modules. 1.Admin section
-                            2.Nurse section 3.Medical section 4.Doctor section 5.Kiosk system
-                        </p>
-                    </div>
-                </div>
-                <div className={styles.box}>
-                    <div className={styles.box_content}>
                         <p className={styles.exp_text}>Expense Management System.</p>
 
                         <p className={styles.description}>
-                            We created design ReactJs, Bootstrap, React-Redux-Saga. It is a tool to
-                            manage any kind of organizations expenses accordingly. This could be in
-                            terms of improved efficiency, cost savings, or any other tangible
-                            benefits it brought to the organization or users
+                            Expense Management System – Built with React.js, Bootstrap, and
+                            Redux-Saga, this tool helps organizations efficiently track and manage
+                            expenses. It improves transparency, saves costs, and streamlines
+                            financial workflows for better decision-making.
                         </p>
                     </div>
                 </div>
@@ -44,20 +31,22 @@ const Projects: FC = (): JSX.Element => {
                         <p className={styles.exp_text}>Work Flow Management System.</p>
 
                         <p className={styles.description}>
-                            Created design ReactJs, Bootstrap, React-Toolkit
+                            Work Flow Management System – Developed using React.js, Bootstrap, and
+                            Redux Toolkit, this system streamlines task management and process
+                            tracking, helping organizations improve efficiency, collaboration, and
+                            overall productivity.
                         </p>
                     </div>
                 </div>
                 <div className={styles.box}>
                     <div className={styles.box_content}>
-                        <p className={styles.exp_text}>
-                            Mega Project - Patient Health Monitoring System
-                        </p>
+                        <p className={styles.exp_text}>Chat Module.</p>
 
                         <p className={styles.description}>
-                            Created design HTML, CSS, etc. This system is for multi-specialty
-                            hospital. In this project there are five modules. 1.Admin section
-                            2.Nurse section 3.Medical section 4.Doctor section 5.Kiosk system
+                            Chat Module – Built with React, Tailwind CSS, and WebSocket, this
+                            real-time messaging system works like WhatsApp. It enables seamless
+                            one-to-one and group communication with an interactive, responsive
+                            design and instant network connectivity.
                         </p>
                     </div>
                 </div>

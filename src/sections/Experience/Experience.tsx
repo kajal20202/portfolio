@@ -24,12 +24,11 @@ const Experience: FC = (): JSX.Element => {
                         </div>
 
                         <p className={styles.description}>
-                            Dedicated Junior Software Developer with experience at Synextic Global
-                            Business Solution Pvt Ltd. Proficient in creating intuitive user
-                            interfaces and forms using React.js. Skilled in integrating APIs to
-                            enhance functionality and user experience. Seeking opportunities to
-                            leverage expertise in front-end development to contribute effectively to
-                            innovative projects
+                            Front-End Developer specializing in building dynamic and responsive web
+                            applications using React.js. Experienced in integrating APIs,
+                            collaborating with design teams, and implementing clean, maintainable
+                            code. Skilled in enhancing performance, ensuring accessibility, and
+                            delivering intuitive user experiences.
                         </p>
                     </div>
                 </div>
@@ -43,11 +42,11 @@ const Experience: FC = (): JSX.Element => {
                         </div>
 
                         <p className={styles.description}>
-                            Dedicated Junior Software Developer with experience at Metamind Systems
-                            Pvt Ltd. Proficient in creating intuitive user interfaces and forms
-                            using React.js. Skilled in integrating APIs to enhance functionality and
-                            user experience. Seeking opportunities to leverage expertise in
-                            front-end development to contribute effectively to innovative projects.
+                            Enthusiastic Software Developer with a strong foundation in crafting
+                            user-friendly interfaces and interactive forms using React.js.
+                            Experienced in connecting APIs to improve functionality and deliver
+                            seamless user experiences. Eager to apply front-end skills to build
+                            innovative and impactful projec
                         </p>
                     </div>
                 </div>
