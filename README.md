@@ -83,4 +83,7 @@ npm run start
 
 This project is **UNLICENSED** - All rights reserved.
 Copying, modification, distribution or reuse of this code in any form is **strictly prohibited** without explicit permission.
+
 https://chetan-thosare.vercel.app/
+
+https://www.figma.com/design/TtbR5eU5klhmJv80aBnDOm/Illustration-Based-Portfolio-Website-Template--Community-?node-id=412-655&p=f&t=ycV7rNd6SlXs0d1C-0

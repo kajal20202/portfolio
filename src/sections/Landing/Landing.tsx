@@ -2,7 +2,7 @@
 
 import type { FC, JSX } from 'react';
 import styles from './Landing.module.scss';
-import profilePic from '../../assets/profile_pic.jpg';
+import profileWomen from '../../assets/logos/women.png';
 
 // ------------------------------------------------------------------------------------------
 
@@ -26,8 +26,8 @@ const Landing: FC = (): JSX.Element => {
                 </div>
                 <div className={styles.profile}>
                     <img
-                        src={profilePic}
-                        alt='Profile'
+                        src={profileWomen}
+                        alt='women'
                     />
                 </div>
             </div>
