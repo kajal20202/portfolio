@@ -57,6 +57,29 @@
         line-height: 1.6;
         color: var(--on-surface-variant);
     }
+    .project_language {
+        display: flex;
+    }
+    .domain {
+        font-size: 12px;
+        color: var(--on-surface-variant);
+        background-color: var(--outline-variant);
+        border-radius: 10px;
+        width: fit-content;
+        transition: all 0.3s ease;
+        padding: 4px 8px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .project_language {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
 
 // ------------------------------------------------------------------------------------------

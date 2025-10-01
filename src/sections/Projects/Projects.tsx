@@ -24,6 +24,11 @@ const Projects: FC = (): JSX.Element => {
                             expenses. It improves transparency, saves costs, and streamlines
                             financial workflows for better decision-making.
                         </p>
+                        <div className={styles.project_language}>
+                            <p className={styles.domain}>React.js</p>
+                            <p className={styles.domain}>Bootstrap</p>
+                            <p className={styles.domain}>Redux-Saga</p>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.box}>
@@ -36,6 +41,11 @@ const Projects: FC = (): JSX.Element => {
                             tracking, helping organizations improve efficiency, collaboration, and
                             overall productivity.
                         </p>
+                        <div className={styles.project_language}>
+                            <p className={styles.domain}>React.js</p>
+                            <p className={styles.domain}>Bootstrap</p>
+                            <p className={styles.domain}>Redux Toolkit</p>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.box}>
@@ -48,6 +58,11 @@ const Projects: FC = (): JSX.Element => {
                             one-to-one and group communication with an interactive, responsive
                             design and instant network connectivity.
                         </p>
+                        <div className={styles.project_language}>
+                            <p className={styles.domain}>React.js</p>
+                            <p className={styles.domain}>Tailwind CSS</p>
+                            <p className={styles.domain}>WebSocket</p>
+                        </div>
                     </div>
                 </div>
             </div>

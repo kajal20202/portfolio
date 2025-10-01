@@ -68,7 +68,12 @@
         border-radius: 10px;
         width: fit-content;
         transition: all 0.3s ease;
-        padding: 3px 8px;
+        padding: 4px 8px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
